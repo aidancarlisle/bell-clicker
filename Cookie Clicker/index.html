@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<link rel="stylesheet" link="text/css" href="stylesheet.css"/>
+		<title>Bell Clicker</title>
+		<script type="text/javascript" src="jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="javascript.js"></script>
+	</head>
+	<body>
+		<center>
+			<h1>Click the bell</h1>
+			<div onmouseup=bellSound()  onmousedown=clickSound() class="bell" id="bell" width="512" height="410"></div>
+			<h2>Clicks: </h2><h3 id="counter">0</h3>
+			<button  type="button" id="2Button" onclick=buyTwoMulti()>2 Times Multiplier: ¢200</button>
+			<button  type="button" id="3Button" onclick=buyThreeMulti()>3 Times Multiplier: ¢500</button>
+			<button  type="button" id="4Button" onclick=buyFourMulti()>4 Times Multiplier: ¢1000</button>
+		</center>
+	</body>
+</html>

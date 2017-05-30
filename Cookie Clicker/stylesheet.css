@@ -1,0 +1,17 @@
+#bell {
+	width: 512;
+	height: 410;
+	background-image: url(img/bell.png);
+}
+
+#bell:active {
+	background-image: url(img/bell-pushed.png);
+}
+
+h2 {
+	display: inline;
+}
+
+h3 {
+	display: inline;
+}
